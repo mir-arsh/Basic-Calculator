@@ -26,3 +26,8 @@ array.forEach(button => {
         }
     });
 });
+
+//Clipboard API
+input.addEventListener("click", () => {
+    navigator.clipboard.writeText(input.value);
+});
